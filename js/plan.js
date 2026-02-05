@@ -1,7 +1,7 @@
 const userProfile = JSON.parse(localStorage.getItem('userProfile'));
 
 if (!userProfile) {
-  window.location.href = 'index.html';
+  window.location.href = window.cdTheme?.homeUrl || '/';
 }
 
 const bmr = userProfile.bmr;
@@ -22,6 +22,6 @@ document.querySelectorAll('.plan').forEach(el => {
   el.addEventListener('click', () => {
     localStorage.setItem('dailyTarget', plans[type]);
     localStorage.setItem('planType', type);
-    window.location.href = 'day1.html';
+    window.location.href = `${window.cdTheme?.homeUrl || '/'}?plan=${type}`;
   });
 });

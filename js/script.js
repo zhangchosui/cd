@@ -40,5 +40,5 @@ form.addEventListener('submit', function (e) {
 });
 
 goNextBtn.addEventListener('click', () => {
-  window.location.href = 'plan.php';
+  window.location.href = window.cdTheme?.planUrl || '/plan/';
 });
