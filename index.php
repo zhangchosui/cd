@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <title>中年人控糖第一枪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="中年人控糖工具：通过基础代谢计算和饮食记录，帮助你更科学地管理每日摄入与血糖风险。">
+  <meta name="keywords" content="控糖,中年人健康,基础代谢,BMR,饮食管理,血糖管理">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="中年人控糖第一枪">
+  <meta property="og:description" content="先计算基础代谢，再设定每日饮食摄入，开启更可执行的控糖计划。">
+  <meta property="og:locale" content="zh_CN">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
