@@ -1,12 +1,35 @@
+/* Basic reset */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
 }
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   background: #f7f7f7;
   color: #222;
+  line-height: 1.5;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+button,
+textarea {
+  font: inherit;
 }
 
 .container {
@@ -48,12 +71,14 @@ label {
   color: #555;
 }
 
-input, select {
+input,
+select {
   width: 100%;
   padding: 10px;
   font-size: 15px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  background: #fff;
 }
 
 .start-btn {
@@ -69,6 +94,24 @@ input, select {
 
 .start-btn:hover {
   background: #333;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  padding: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.plan.active {
+  border-color: #111;
+  background: #f0f3ff;
+}
+
+.plan h3 {
+  margin-bottom: 6px;
 }
 
 .notice {
